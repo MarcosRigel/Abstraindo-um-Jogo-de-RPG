@@ -6,8 +6,4 @@
     <RootNamespace>Jogo_de_RPG</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="src\" />
-  </ItemGroup>
-
 </Project>
