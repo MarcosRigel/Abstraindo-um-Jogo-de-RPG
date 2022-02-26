@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Jogo_de_RPG.src.Entities;
+using System;
 
 namespace Jogo_de_RPG
 {
@@ -6,15 +7,9 @@ namespace Jogo_de_RPG
     {
         static void Main(string[] args)
         {
-            string nome = "Arus";
-            int level = 12;
-            string tipoHeroi = "Guerreiro";
+            Arus hero = new Arus();
 
-            string nome2 = "Wedge";
-            int level2 = 20;
-            string tipoHeroi2 = "Ninja";
-
-            Console.Write(nome2 + " " + level2 +" "+ tipoHeroi2);
+            Console.Write();
         }
     }
 }
