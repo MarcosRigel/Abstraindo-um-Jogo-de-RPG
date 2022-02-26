@@ -8,7 +8,7 @@ namespace Jogo_de_RPG.src.Entities
 {
     class Arus
     {
-        public string name;
+        public string Name;
         public int level;
         public string HeroType;
 
