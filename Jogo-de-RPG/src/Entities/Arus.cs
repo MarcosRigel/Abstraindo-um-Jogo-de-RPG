@@ -11,7 +11,7 @@ namespace Jogo_de_RPG.src.Entities
         public Arus(string Name, int Level, string HeroType)
         {
             this.Name = Name;
-            this.level = Level;
+            this.Level = Level;
             this.HeroType = HeroType;
         }
 
@@ -21,8 +21,13 @@ namespace Jogo_de_RPG.src.Entities
         }
 
         public string Name;
-        public int level;
+        public int Level;
         public string HeroType;
+
+        public override string ToString()
+        {
+            return this.Name + " " + this.Level + " " + this.HeroType;
+        }
 
     }
 }
