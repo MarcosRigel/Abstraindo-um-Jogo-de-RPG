@@ -19,5 +19,11 @@ namespace Jogo_de_RPG.src.Entities
         {
             return this.Name + " Lançou Magia";
         }
+
+        public string Attack(int Bonus)
+        {
+            return this.Name + " Lançou Magia com bonus de ataque de " + Bonus;
+        }
+
     }
 }

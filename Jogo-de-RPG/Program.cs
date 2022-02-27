@@ -11,7 +11,7 @@ namespace Jogo_de_RPG
             Wizard wizard = new Wizard("Jennica", 23, "White Wizard");
 
             Console.WriteLine(arus.Attack());
-            Console.Write(wizard.Attack());
+            Console.Write(wizard.Attack(1));
         }
     }
 }
