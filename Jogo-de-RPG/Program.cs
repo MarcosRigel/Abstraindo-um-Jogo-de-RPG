@@ -7,8 +7,8 @@ namespace Jogo_de_RPG
     {
         static void Main(string[] args)
         {
-            Arus hero = new Arus("Arus", 23, "Knight");
-            Arus wizard = new Arus("Jennica", 23, "White Wizard");
+            Hero hero = new Hero("Arus", 23, "Knight");
+            Hero wizard = new Hero("Jennica", 23, "White Wizard");
 
             Console.Write(wizard.Attack());
 
