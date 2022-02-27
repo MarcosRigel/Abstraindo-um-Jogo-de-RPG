@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Jogo_de_RPG.src.Entities
 {
-    class Hero
+    public abstract class Hero
     {
         public Hero(string Name, int Level, string HeroType)
         {
