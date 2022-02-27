@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace Jogo_de_RPG.src.Entities
 {
-    class Arus
+    class Hero
     {
-        public Arus(string Name, int Level, string HeroType)
+        public Hero(string Name, int Level, string HeroType)
         {
             this.Name = Name;
             this.Level = Level;
             this.HeroType = HeroType;
         }
 
-        public Arus()
+        public Hero()
         {
 
         }
