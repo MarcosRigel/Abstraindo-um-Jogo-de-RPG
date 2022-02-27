@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace Jogo_de_RPG.src.Entities
 {
-    class Knight : Hero
+    class Knight : Boss
     {
-        public Knight(string Name, int Level, string HeroType)
+        public int Name { 
+            get => throw new NotImplementedException(); set => throw new NotImplementedException(); 
+        }
+
+        public string hadouken()
         {
-            this.Name = Name;
-            this.Level = Level;
-            this.HeroType = HeroType;
+            throw new NotImplementedException();
         }
     }
 }

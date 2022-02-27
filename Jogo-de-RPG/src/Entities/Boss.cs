@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Jogo_de_RPG.src.Entities
 {
-    class Boss
+    public interface Boss
     {
+        public int Name { get; set; }
+        public string hadouken();
     }
 }
