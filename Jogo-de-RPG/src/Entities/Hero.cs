@@ -29,7 +29,7 @@ namespace Jogo_de_RPG.src.Entities
             return this.Name + " " + this.Level + " " + this.HeroType;
         }
 
-        public string Attack()
+        public virtual string Attack()
         {
             return this.Name + " Atacou com a sua espada";
         }
